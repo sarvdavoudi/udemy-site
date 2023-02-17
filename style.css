@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+body{
+    font-family: udemyFontRegular;
+    background-color: #ffffff;
+        font-weight: 400;
+            line-height: 1.4;
+            font-size: 1rem;
+            color: #1c1d1f;
+            margin: 0;
+    
+ 
+}
+
+
+
+/* **************************************** */
+/* header */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navigation ul {
+    display: flex;
+    margin-right: 700px;
+    margin-top: 10px;
+    
+      
+}
+
+.navigation ul li{
+    margin: 0px 50px 0px 0px;  
+}
+
+
+.auth-button-group{
+    display: flex;
+        min-width: 8rem;
+        justify-content: center;
+        white-space: nowrap;    
+}
+
+.auth-button-group-sign-in{
+margin: 0px 10px ;
+padding: 10px 10px 10px 10px;
+background-color: #ffffff;
+
+}
+
+.auth-button-group-sign-up{
+  
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* ********************************* */
+
+/* section-1 */
+.banner{
+    position: relative;
+}
+.banner .banner-image {
+    width: 1340 ;
+    height:400;
+    margin-left: 3%;
+
+}
+
+
+.banner .banner-content{
+            position: absolute;
+            z-index: 2;
+            top: 20%;
+            left: 5%;
+            background-color: rgb(255, 255, 255);  
+            padding: 2% ;
+          
+            
+} 
+
+.banner-content-header-h1{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 1.25;
+            /* letter-spacing: -.05rem; */
+            font-family: udemyFontSuisseWorks;
+
+}
+
+            
+/* ********************************* */
+
+/* section 2 */
+ .section-2-header-h1{
+    font-family: udemyFontSuisseWorks;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+    margin-left: 3%;
+    padding: 3% 0% 1% 0%;
+}
+
+.section-2-paragraph{
+    margin-left: 3%;
+    
+}
+
+.section-2-table-title  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px 7px 50px;
+}  
+
+.section-2-table-title-buttons{
+        padding: 10px 10px 10px 10px;
+        background-color: #ffffff;
+        border-style: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 900;
+        
+}
+
+
+.section-2 .section-2-table-content {
+    border: 1px ;
+    border-style: ridge;
+    margin: 0.5% 9% 7% 3%;
+    padding: 50px 50px 50px 50px;
+}
+
+.section-2-table-content-header-h4{
+        font-weight: 700;
+        font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: -.02rem;
+ 
+}
+
+.section-2-table-content-button{
+        margin: 20px 0px;
+        padding: 10px 10px 10px 10px;
+        background-color: #ffffff;
+        font-weight: 600;
+}
+
+.section-2 .section-2-table-content-course-items{
+    display: flex;
+    justify-content: space-around;
+   
+ 
+}
+
+/* **************************** */
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    
+
+}
+.footer-colums {
+ display: flex;
+ justify-content: space-around;
+ 
+ margin-right: 60%;
+ 
+}
+
+footer .footer-colums ul{
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
